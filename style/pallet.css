@@ -1,0 +1,16 @@
+:root {
+  --blue: #1c2d7b;
+  --mediumblue: #5872e8;
+  --blueishshade: rgb(60, 78, 158);
+  --darkblue: rgb(3, 14, 32);
+  --darkviolet: #0c0c14;
+  --white: #ffffff;
+  --lightgray: #d3d3d3;
+  --black: #000000;
+  --mustard: #e1b74d;
+  --orange: #f39c12;
+  --emeraldgreen: #2ecc71;
+  --olivegreen: #556b2f;
+  --gold: #ffd700;
+  --silver: #c0c0c0;
+}

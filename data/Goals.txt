@@ -1,0 +1,5 @@
+1. create an figma design
+	-colors pallet
+	-font style
+	-imgs, videos, structure html	
+	-design for smartphones and pcs 
