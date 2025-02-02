@@ -7,10 +7,10 @@ function Portfolio() {
           <article id="Introduccion">
             <img src="assets/imgs/fotoDePerfil.jpeg" alt="Foto de perfil" />
             <nav id="Redes">
-              <a><p>Github</p></a>
-              <a><p>Gmail</p></a>
-              <a><p>Linkedin</p></a>
-              <i>CV</i>
+              <a><img src="./src/imgs/github.png" alt="" /><p>Github</p></a>
+              <a><img src="./src/imgs/gmail.png" alt="" /><p>Gmail</p></a>
+              <a><img src="./src/imgs/linkedin.png" alt="" /><p>Linkedin</p></a>
+              <i><img src="./src/imgs/curriculum-vitae.png" alt="" />CV</i>
             </nav>
           </article>
           <article>
@@ -18,23 +18,23 @@ function Portfolio() {
             <h2>Full stack</h2>
           </article>
           <article>
-          
             <p>
               Persigo oportunidades que me permitan continuar ampliando mis
               habilidades y conocimientos como futuro Full Stack.
             </p>
           </article>
           <article>
-          
+            <h2>lenguajes y frameworks</h2>
             <ul>
-              <li></li>
-              <li></li>
-              <li></li>
-              <li></li>
-              <li></li>
-              <li></li>
-              <li></li>
-              <li></li>
+              <li><img src="./src/imgs/html-5.png" alt="" /></li>
+              <li><img src="./src/imgs/css-3.png" alt="" /></li>
+              <li><img src="./src/imgs/js.png" alt="" /></li>
+              <li><img src="./src/imgs/php.png" alt="" /></li>
+              <li><img src="./src/imgs/react.jpeg" alt="" /></li>
+              <li><img src="./src/imgs/nodejs.png" alt="" /></li>
+              <li><img src="./src/imgs/tailwind.jpeg" alt="" /></li>
+              <li><img src="./src/imgs/sas.jpeg" alt="" /></li>
+              <li><img src="./src/imgs/sql.png" alt="" /></li>
             </ul>
           </article>
           <article><h3>habilidades blandas</h3></article>
