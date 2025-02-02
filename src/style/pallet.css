@@ -1,7 +1,13 @@
 :root {
+  --darkviolet: #1c1c2c;
   --morado-intenso: #4a0735; /* Morado profundo */
   --azul-mediterraneo: #2e5a8d; /* Azul oscuro */
   --lavanda: #b0a4d4; /* Azul-lavanda claro */
   --gris-plata: #a6a6a6; /* Gris neutro */
   --blanco-perla: #f7f7f7; /* Blanco suave */
+  --morado-oscuro: #1c1c2c; /* Morado muy oscuro */
+  --gris-plomo: #2f3034; /* Gris oscuro */
+  --lavanda-suave: #b1a7d4; /* Lavanda suave */
+  --azul-noche: #2a3c64; /* Azul oscuro con toques fríos */
+  --blanco-hueso: #f1f1f1; /* Blanco suave */
 }
