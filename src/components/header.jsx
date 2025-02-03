@@ -4,11 +4,12 @@ function Header() {
         <header>
             <nav>
                 <ul>
-                <li><a href="#Introduccion">Introduccion</a></li>
-                <li><a href="#Redes">Redes</a></li>
-                <li><a href="#Proyectos">habilidades</a></li>
-                <li><a href="#Proyectos">habilidades</a></li>
-                <li><a href="#Proyectos">Proyectos</a></li>
+                  <li><a href="#Agustin">Agustin</a></li>
+                  <li><a href="#Aboutme">Sobre mi</a></li>
+                  <li><a href="#Porfolio">Proyectos</a></li>
+                  <li><a href="#Skills">Habilidades</a></li>
+                  <li><a href="#Education">Educacion</a></li>
+                  <li><a href="#Contactme">Contacto</a></li>
                 </ul>
             </nav>
         </header>
