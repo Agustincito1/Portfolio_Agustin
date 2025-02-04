@@ -1,8 +1,7 @@
-interface cvProps {
-  text: string;
-}
+import React from 'react';
+import PropTypes from 'prop-types'; 
 
-function CV({ text }: cvProps) {
+function CV({ text }) {
     return (
       <>
         <button>{text}</button>

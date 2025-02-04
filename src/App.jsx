@@ -1,23 +1,29 @@
 import { StrictMode } from 'react'
-import { createRoot } from 'react-dom/client'
-import Header from './components/header.jsx'
-import './style/index.css'; 
+import { createRoot } from 'react-dom/client' 
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import './style/index.css';
 import Footer from './components/footer.jsx'
-import Portfolio from './pages/portfolio'
-
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-
+import Header from './components/header.jsx'
 import Agustin from './pages/agustin.jsx';
-
+import Portfolio from './pages/portfolio.jsx';
+function NotFound() {
+  return <h2>404 - Page Not Found</h2>;
+}
 
 const App = () => {
   return (
     <>
-      <Header /> 
-        <Switch>
-          <Route path="/" exact component={Agustin} />
-        </Switch>
-      <Footer /> 
+     <Router>
+        <Header/>
+        <main>
+          <Routes>
+            <Route path="/" element={<Agustin />} />
+            <Route path="*" element={<NotFound />} />
+            <Route path="/Aboutme" element={<Portfolio />} />
+          </Routes>
+        </main>
+        <Footer /> 
+      </Router>
     </>
   );
 };

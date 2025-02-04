@@ -1,14 +1,17 @@
-interface profileProps {
-  location: string;
-  title: string;
-}
+import React from 'react';
+import PropTypes from 'prop-types'; 
 
-function Profile({ location, title }: profileProps) {
+function Profile({ location, title }) {
   return (
     <div>
       <img src={location} alt={title} />
     </div>
   )
 }
+
+// Profile.propTypes = {
+//   location: PropTypes.string.isRequired,  
+//   title: PropTypes.string.isRequired,     
+// };
 
 export default Profile
