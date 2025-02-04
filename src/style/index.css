@@ -41,5 +41,5 @@ a {
 }
 
 .linkText {
-  font-size: clamp(0.3rem, 2vw, 4rem);
+  font-size: clamp(0.3rem, 2vw, 7rem);
 }
