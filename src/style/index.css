@@ -52,6 +52,9 @@ a {
 .subtitle {
   font-size: clamp(0.4rem, 2.5vw, 6rem);
 }
+.button {
+  font-size: clamp(0.3rem, 1vw, 4rem);
+}
 #root {
   display: grid;
   grid-template-rows: 1.5% auto auto auto;
