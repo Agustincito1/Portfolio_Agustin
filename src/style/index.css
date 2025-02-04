@@ -34,7 +34,9 @@
 }
 body {
   background-color: var(--dv);
-  padding: 2.5%;
+  box-sizing: content-box;
+  padding: 0%;
+  padding-top: 0;
 }
 a {
   font-family: "Park-semibold", sans-serif;
