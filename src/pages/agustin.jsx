@@ -15,7 +15,7 @@ function Agustin() {
                 <h2 className="text-[var(--lv)] subtitle">Full-Stack Development</h2>
             </article>
             <article className="w-full grid pl-[4%]">
-                <Cv text="Descargar mi CV"></Cv>
+                <Cv  text="Descargar mi CV"></Cv>
             </article>
             <article className="flex gap-1 justify-self-end h-fit mr-2">
                 <div className="bg-[var(--bh)] w-2.5 h-2.5 rounded-full"></div>
