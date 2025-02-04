@@ -1,7 +1,7 @@
 function Header() {
   return (
     <>
-        <header className="bg-black text-white p-4 shadow-md">
+        <header className="font-bold">
             <nav>
                 <ul>
                   <li><a href="#Agustin">Agustin</a></li>

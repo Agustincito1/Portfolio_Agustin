@@ -1,2 +1,13 @@
 @import "tailwindcss";
 
+/* index.css */
+@font-face {
+  font-family: "Park";
+  src: url("./font-text/Kulim_Park/KulimPark-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  font-family: "Park", sans-serif;
+}
