@@ -5,12 +5,18 @@ import './style/index.css';
 import Footer from './components/footer.jsx'
 import Portfolio from './pages/portfolio'
 
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+
+import Agustin from './pages/agustin.jsx';
+
 
 const App = () => {
   return (
     <>
       <Header /> 
-      <Portfolio></Portfolio>
+        <Switch>
+          <Route path="/" exact component={Agustin} />
+        </Switch>
       <Footer /> 
     </>
   );
