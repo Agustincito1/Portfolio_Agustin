@@ -1,7 +1,6 @@
-import React from 'react';
 import PropTypes from 'prop-types'; 
 
-function CV({ text }) {
+function Cv({ text }) {
     return (
       <>
         <button>{text}</button>
@@ -9,4 +8,4 @@ function CV({ text }) {
     )
 }
 
-export default Profile
+export default Cv

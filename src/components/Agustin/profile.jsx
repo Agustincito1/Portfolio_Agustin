@@ -1,17 +1,12 @@
-import React from 'react';
 import PropTypes from 'prop-types'; 
 
 function Profile({ location, title }) {
   return (
-    <div>
-      <img src={location} alt={title} />
+    <div className='bg-[var(--bh)] rounded-full w-fit p-1' >
+      <img className='rounded-full' src={location} alt={title} />
     </div>
   )
 }
 
-// Profile.propTypes = {
-//   location: PropTypes.string.isRequired,  
-//   title: PropTypes.string.isRequired,     
-// };
 
 export default Profile
