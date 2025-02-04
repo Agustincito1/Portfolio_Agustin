@@ -16,12 +16,30 @@
 
 /* index.css */
 @font-face {
-  font-family: "Park";
+  font-family: "Park-regular";
   src: url("./font-text/Kulim_Park/KulimPark-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+/* index.css */
+@font-face {
+  font-family: "Park-semibold";
+  src: url("./font-text/Kulim_Park/KulimPark-SemiBold.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
 
 * {
-  font-family: "Park", sans-serif;
+  font-family: "Park-regular", sans-serif;
+}
+body {
+  background-color: var(--dv);
+  padding: 2.5%;
+}
+a {
+  font-family: "Park-semibold", sans-serif;
+}
+
+.linkText {
+  font-size: clamp(0.5rem, 2vw, 4rem);
 }
