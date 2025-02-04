@@ -1,8 +1,8 @@
 function Header() {
   return (
     <>
-        <header className="font-bold">
-            <nav>
+        <header className="bg-[var(--dv)] text-[var(--lv)]">
+            <nav className="w-full ">
                 <ul>
                   <li><a href="#Agustin">Agustin</a></li>
                   <li><a href="#Aboutme">Sobre mi</a></li>
