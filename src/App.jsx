@@ -6,6 +6,7 @@ import Header from './components/header.jsx'
 import Agustin from './pages/agustin.jsx';
 import Portfolio from './pages/portfolio.jsx';
 import Aboutme from './pages/aboutme.jsx';
+import Projects from './pages/projects.jsx';
 
 
 const App = () => {
@@ -15,6 +16,7 @@ const App = () => {
       <Header/>
       <Agustin/>
       <Aboutme></Aboutme>
+      <Projects></Projects>
       {/* <Portfolio/> */}
       <Footer/>
 
