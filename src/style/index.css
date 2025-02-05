@@ -51,6 +51,9 @@ a {
 .Text {
   font-size: clamp(0.15rem, 2vw, 7rem);
 }
+.Textp {
+  font-size: clamp(0.1rem, 1vw, 5rem);
+}
 .titleHard {
   font-size: clamp(0.4rem, 6vw, 50rem);
 }

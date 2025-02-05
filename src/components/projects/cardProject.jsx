@@ -1,19 +1,19 @@
 import PropTypes from 'prop-types'; 
 function CardProject({ text, title, img, arrayLeng }) {
   return (
-        <div className='bg-red-100 min-h-[100px] grid'>
+        <div className='bg-[var(--lv)] min-h-[40px] grid grid-rows-[50%_50%] h-fit p-[1%]'>
             <section>
-                <img src={img} alt="" />
+                <img className='h-full' src={img} alt="" />
             </section>
-            <section>
-                <article className='Text'>
-                    <h3>{title}</h3>
-                    <p>{text}</p>
+            <section className='grid grid-rows-[1fr_1fr] p-[3%]'>
+                <article >
+                    <h3 className='Text'>{title}</h3>
+                    <p  className='Textp'>{text}</p>
                 </article>
-                <article>
+                <article className="grid grid-cols-6 items-center w-full ">
                     {
                         arrayLeng.map((image, index) => (
-                            <img key={index} src={image} />
+                            <img className="" key={index} src={image} />
                         ))
                     } 
                 </article>
