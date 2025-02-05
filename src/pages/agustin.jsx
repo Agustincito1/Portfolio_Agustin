@@ -18,9 +18,9 @@ function Agustin() {
                 <Cv  text="Descargar mi CV"></Cv>
             </article>
             <article className="flex gap-1 justify-self-end h-fit mr-2">
-                <div className="bg-[var(--bh)] w-2.5 h-2.5 rounded-full"></div>
-                <div className="bg-[var(--ls)] w-2.5 h-2.5 rounded-full"></div>
-                <div className="bg-[var(--mi)] w-2.5 h-2.5 rounded-full"></div>
+                <div className="bg-[var(--bh)] w-[4vw] h-[4vw] rounded-full"></div>
+                <div className="bg-[var(--ls)] w-[4vw] h-[4vw] rounded-full"></div>
+                <div className="bg-[var(--mi)] w-[4vw] h-[4vw] rounded-full"></div>
             </article>
             
         </section>
