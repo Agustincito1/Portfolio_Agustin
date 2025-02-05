@@ -36,12 +36,15 @@ body {
   background-color: var(--dv);
   box-sizing: content-box;
   padding: 5%;
+  height: 100%;
   padding-top: 0;
 }
 a {
   font-family: "Park-semibold", sans-serif;
 }
-
+.spacer {
+  opacity: 0;
+}
 .linkText {
   font-size: clamp(0.3rem, 2vw, 7rem);
 }
@@ -54,8 +57,4 @@ a {
 }
 .button {
   font-size: clamp(0.3rem, 1vw, 4rem);
-}
-#root {
-  display: grid;
-  grid-template-rows: 1.5% auto auto auto;
 }

@@ -13,7 +13,7 @@ const App = () => {
 
       <Header/>
       <Agustin/>
-      <Portfolio/>
+      {/* <Portfolio/> */}
       <Footer/>
 
     </>
