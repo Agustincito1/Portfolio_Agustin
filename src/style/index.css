@@ -46,15 +46,15 @@ a {
   opacity: 0;
 }
 .linkText {
-  font-size: clamp(0.3rem, 2vw, 7rem);
+  font-size: clamp(0.15rem, 2vw, 7rem);
 }
 
 .title {
-  font-size: clamp(0.6rem, 4.2vw, 20rem);
+  font-size: clamp(0.2rem, 4.2vw, 20rem);
 }
 .subtitle {
-  font-size: clamp(0.4rem, 2.5vw, 10rem);
+  font-size: clamp(0.1rem, 2.5vw, 10rem);
 }
 .button {
-  font-size: clamp(0.3rem, 1vw, 4rem);
+  font-size: clamp(0.1rem, 1vw, 4rem);
 }
