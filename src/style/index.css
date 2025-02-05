@@ -48,7 +48,12 @@ a {
 .linkText {
   font-size: clamp(0.15rem, 2vw, 7rem);
 }
-
+.Text {
+  font-size: clamp(0.15rem, 2vw, 7rem);
+}
+.titleHard {
+  font-size: clamp(0.4rem, 6vw, 50rem);
+}
 .title {
   font-size: clamp(0.2rem, 4.2vw, 20rem);
 }
