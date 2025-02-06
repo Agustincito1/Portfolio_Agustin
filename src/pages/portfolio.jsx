@@ -26,15 +26,15 @@ function Portfolio() {
           <article>
             <h2>lenguajes y frameworks</h2>
             <ul>
-              <li><img src="./src/imgs/html-5.png" alt="" /></li>
-              <li><img src="./src/imgs/css-3.png" alt="" /></li>
-              <li><img src="./src/imgs/js.png" alt="" /></li>
-              <li><img src="./src/imgs/php.png" alt="" /></li>
-              <li><img src="./src/imgs/react.jpeg" alt="" /></li>
+              <li><img src="./public/imgs/html-5.png" alt="" /></li>
+              <li><img src="./public/imgs/css-3.png" alt="" /></li>
+              <li><img src="./public/imgs/js.png" alt="" /></li>
+              <li><img src="./public/imgs/php.png" alt="" /></li>
+              <li><img src="./public/imgs/react.jpeg" alt="" /></li>
               <li><img src="./src/imgs/nodejs.png" alt="" /></li>
-              <li><img src="./src/imgs/tailwind.jpeg" alt="" /></li>
-              <li><img src="./src/imgs/sas.jpeg" alt="" /></li>
-              <li><img src="./src/imgs/sql.png" alt="" /></li>
+              <li><img src="./public/imgs/tailwind.jpeg" alt="" /></li>
+              <li><img src="./public/imgs/sas.jpeg" alt="" /></li>
+              <li><img src="./public/imgs/sql.png" alt="" /></li>
             </ul>
           </article>
           <article><h3>habilidades blandas</h3></article>

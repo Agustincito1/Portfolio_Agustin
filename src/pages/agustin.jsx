@@ -8,7 +8,7 @@ function Agustin() {
         <section className=" grid max-w-[85vw] items-center min-h-[5px] grid-cols-[0.6fr_1fr_1fr] grid-rows-2 grid-rows-[2fr_1fr]  ">
            
             <article className="row-span-3 ">
-                <Profile location="./src/imgs/profile.png" title="Imagen profile"/>
+                <Profile location="./public/imgs/profile.png" title="Imagen profile"/>
             </article>
             <article className="col-span-2 pt-2 justify-self-end">
                 <h1 className="text-[var(--bh)] title">Agustin Lazaro Ardeola de Olivera</h1>

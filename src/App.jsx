@@ -7,6 +7,7 @@ import Agustin from './pages/agustin.jsx';
 import Portfolio from './pages/portfolio.jsx';
 import Aboutme from './pages/aboutme.jsx';
 import Projects from './pages/projects.jsx';
+import Skill from './pages/skills.jsx';
 
 
 const App = () => {
@@ -17,6 +18,7 @@ const App = () => {
       <Agustin/>
       <Aboutme></Aboutme>
       <Projects></Projects>
+      <Skill></Skill>
       {/* <Portfolio/> */}
       <Footer/>
 
