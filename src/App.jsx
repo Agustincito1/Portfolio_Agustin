@@ -8,6 +8,7 @@ import Portfolio from './pages/portfolio.jsx';
 import Aboutme from './pages/aboutme.jsx';
 import Projects from './pages/projects.jsx';
 import Skill from './pages/skills.jsx';
+import Education from './pages/education.jsx';
 
 
 const App = () => {
@@ -19,6 +20,7 @@ const App = () => {
       <Aboutme></Aboutme>
       <Projects></Projects>
       <Skill></Skill>
+      <Education></Education>
       {/* <Portfolio/> */}
       <Footer/>
 
