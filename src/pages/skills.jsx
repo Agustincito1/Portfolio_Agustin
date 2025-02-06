@@ -8,7 +8,7 @@ function Skill() {
         <section className="max-w-[85vw] w-full h-full grid gap-[5%] font-bold text-[var(--bh)] ">
             <h2 className="titleHard text-[var(--lv)]">Habilidades</h2>
             <article className='w-[50vw] grid gap-[5%]'>
-                <h3 className="subtitle flex items-center gap-[1%]"> <div className=" shadow bg-[var(--lk)] w-[2vw] h-[2vw] rounded-full"></div> Back-End</h3>
+                <h3 className="subtitle flex items-center gap-[1%]"> <div className="  bg-[var(--bp)] w-[1.5vw] h-[1.5vw] rounded-full"></div> Back-End</h3>
                 <div className=' pl-[5%] grid grid-cols-[repeat(auto-fill,_minmax(10%,_1fr))] gap-[2%] w-[85vw] '>
                     <ImageSkill url="./imgs/php.png" title="Php imagen"/>
                     <ImageSkill url="./imgs/sql.png" title="sql imagen"/>
@@ -17,7 +17,7 @@ function Skill() {
                 </div>
             </article>
             <article className='grid gap-[5%]'>
-                <h3 className="subtitle flex items-center gap-[1%]"><div className=" shadow bg-[var(--lk)] w-[2vw] h-[2vw] rounded-full"></div>Front-End</h3>
+                <h3 className="subtitle flex items-center gap-[1%]"><div className="  bg-[var(--lv)] w-[1.5vw] h-[1.5vw] rounded-full"></div>Front-End</h3>
                 <div className=' pl-[5%] grid grid-cols-[repeat(auto-fill,_minmax(10%,_1fr))] gap-[1%] w-[85vw]'>
                     <ImageSkill url="./imgs/html-5.png" title="html imagen"/>
                     <ImageSkill url="./imgs/css-3.png" title="css imagen"/>
@@ -28,7 +28,7 @@ function Skill() {
                 </div>
             </article>
             <article className='grid gap-[5%]'>
-                <h3 className="subtitle flex items-center gap-[1%]"><div className=" shadow bg-[var(--lk)] w-[2vw] h-[2vw] rounded-full"></div>Softwares y Herramientas</h3>
+                <h3 className="subtitle flex items-center gap-[1%]"><div className="  bg-[var(--ml)] w-[1.5vw] h-[1.5vw] rounded-full"></div>Softwares y Herramientas</h3>
                 <div className=' pl-[5%] grid grid-cols-[repeat(auto-fill,_minmax(10%,_1fr))] justify-items-left gap-[1%] w-[85vw]'>
                     <ImageSkill url="./imgs/github.png" title="github imagen"/>
                 </div>
