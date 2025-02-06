@@ -8,10 +8,13 @@
   --gp: #a6a6a6; /* Gris Plata */
   --bp: #f7f7f7; /* Blanco Perla */
   --mo: #1c1c2c; /* Morado Oscuro */
-  --gp: #2f3034; /* Gris Plomo */
+  --ga: #2f3034; /* Gris Plomo */
   --ls: #b1a7d4; /* Lavanda Suave */
   --an: #2a3c64; /* Azul Noche */
+  --mo: #381b46;
   --bh: #f1f1f1; /* Blanco Hueso */
+  --lk: #675992d8;
+  --ml: #810c5c;
 }
 
 /* index.css */
@@ -81,4 +84,21 @@ a {
   100% {
     opacity: 1;
   }
+}
+.hidden {
+  opacity: 0;
+}
+.element {
+  opacity: 0;
+  transform: translateY(50px); /* Lo posicionamos hacia abajo */
+  transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+}
+
+.element.visible {
+  opacity: 1;
+  transform: translateY(0); /* Se mueve a su posición original */
+}
+
+.shadow {
+  box-shadow: 0 0 0.3vw var(--lv);
 }
