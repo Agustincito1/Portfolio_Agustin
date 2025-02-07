@@ -3,33 +3,11 @@ import './../style/index.css';
 
 
 function Aboutme() {
-  const [isVisible, setIsVisible] = useState(false);
-  const elementRef = useRef(null);
-  useEffect(() => {
-    const observer = new IntersectionObserver(
-      ([entry]) => {
-        if (entry.isIntersecting) {
-          setIsVisible(true); 
-        }
-      },
-      { threshold: 0.5 } 
-    );
-
-    if (elementRef.current) {
-      observer.observe(elementRef.current);
-    }
-
-    return () => {
-      if (elementRef.current) {
-        observer.unobserve(elementRef.current); 
-      }
-    };
-  }, []);
 
   return (
       <>
-        <section ref={elementRef}  className={`element max-w-[85vw] w-full grid gap-[3%] font-bold ${isVisible ? 'visible' : ''}`} >
-          <h2 className="titleHard text-[var(--lv)]">Sobre mi</h2>
+        <section className=' max-w-[85vw] w-full grid gap-[3%] font-bold' >
+          <h2 className="titleHard text-[var(--lv)] " >Sobre mi</h2>
           <p className="Text text-[var(--bh)] font-bold">
               Soy un programador en constante evolucion, siempre en busca de desafios que me 
               impulsen a alcanzar mis límites que me permita seguir aprendiendo y mejorando. 

@@ -1,7 +1,7 @@
 function Footer() {
     return (
       <>
-        <footer className="grid gap-[5%]">
+        <footer id="Contactme" className="grid gap-[5%]">
           
           <section >
             <h2 className="titleHard font-bold text-[var(--lv)]">Contacto</h2>

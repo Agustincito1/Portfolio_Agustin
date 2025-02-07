@@ -22,3 +22,11 @@ tema colores:
 - **Contrastes**: Los colores como el negro y el blanco pueden ayudar a que los textos y otros elementos sean legibles. Evita que los colores sean tan similares entre sí en áreas de texto.
 
 En resumen, con un diseño bien equilibrado y algunos toques estratégicos, estos colores pueden dar un resultado profesional y atractivo para tu portfolio. ¿Tienes algo en mente para el diseño, como un tema o un estilo específico?
+
+
+
+
+-separadores
+-mejorar re direccionamiento
+-dar detalles a los modulos, imagenes. gifs
+-mejorar imagenes en general
