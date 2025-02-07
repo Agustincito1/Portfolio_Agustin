@@ -15,31 +15,19 @@ const App = () => {
   return (
     <>
    
-      <Header id="Header"/>
-    
-      <ScrollReveal>
-        <Agustin id="Agustin"/>
-      </ScrollReveal>
+      <Header/>
+
+      <Agustin />
       <Separate></Separate>
-      <ScrollReveal>
-        <Aboutme id="Aboutme"/>
-      </ScrollReveal>
+      <Aboutme/>
       <Separate></Separate>
-      <ScrollReveal>
-        <Projects id="Projects"/>
-      </ScrollReveal>
+      <Projects />
       <Separate></Separate>
-      <ScrollReveal>
-        <Skill id="Skills"/>
-      </ScrollReveal>
+      <Skill />
       <Separate></Separate>
-      <ScrollReveal>
-        <Education id="Education"/>
-      </ScrollReveal>
+      <Education />
       <Separate></Separate>
-      <ScrollReveal>
-        <Footer id="Contactme"/>
-      </ScrollReveal>
+      <Footer/>
     </>
   );
 };

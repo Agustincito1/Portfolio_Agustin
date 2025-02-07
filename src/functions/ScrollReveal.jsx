@@ -1,31 +1,36 @@
-import React, {useEffect, useState} from "react";
+import React, { useEffect, useState, useRef } from "react";
 
-const ScrollReveal = ({children})=>{
+const ScrollReveal = ({ children }) => {
     const [isVisible, setVisible] = useState(false);
-    useEffect(()=>{
+    const elementRef = useRef(null);
+
+     useEffect(() => {
         const observer = new IntersectionObserver(
-            ([entry]) =>{
-                setVisible(entry.isIntersecting);
-            },{
-                threshold: 0.5
+            ([entry]) => {
+                setVisible(entry.isIntersecting); // Cambiar el estado cuando el elemento entra en la vista
+            },
+            {
+                threshold: 0.5, // Se activa cuando el 50% del elemento es visible
             }
-        )  
-        const element = document.getElementById(children.props.id);
-        if(element){
-            observer.observe(element);
+        );
+
+        const currentElement = elementRef.current; // Obtener el elemento referenciado
+
+        if (currentElement) {
+            observer.observe(currentElement); // Comenzar a observar el elemento
         }
 
-        return () =>{
-            if(element){
-                observer.unobserve(element);
+        // Limpiar el observer cuando el componente se desmonte
+        return () => {
+            if (currentElement) {
+                observer.unobserve(currentElement); // Dejar de observar el elemento al desmontar
             }
         };
-
-    },[children]);
+    }, []);
 
     return (
         <div
-        id={children.props.id}
+        ref={elementRef}
         className={`element ${isVisible ? 'visible' : ''}`}
         >
         {children}

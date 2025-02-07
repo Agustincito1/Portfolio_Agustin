@@ -6,7 +6,7 @@ function Aboutme() {
 
   return (
       <>
-        <section className=' max-w-[85vw] w-full grid gap-[3%] font-bold' >
+        <section id="Aboutme" className='mb-[16%] mt-[15%] max-w-[85vw] w-full grid gap-[3%] font-bold' >
           <h2 className="titleHard text-[var(--lv)] " >Sobre mi</h2>
           <p className="Text text-[var(--bh)] font-bold">
               Soy un programador en constante evolucion, siempre en busca de desafios que me 

@@ -5,7 +5,7 @@ function Education() {
     return (
       <>
         
-        <section  className="max-w-[85vw] w-full font-bold grid gap-[2%]">
+        <section  id="Education" className="mb-[15%] mt-[10%] max-w-[85vw] w-full font-bold grid gap-[2%]">
           <h2 className="titleHard text-[var(--lv)]">Education</h2>
           <article className='grid gap-[20%]'>
             <div className='grid gap-[4%]'>
