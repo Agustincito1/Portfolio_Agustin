@@ -5,7 +5,7 @@ import ImageSkill from '../components/skills/img';
 function Skill() {
     return (
       <>
-        <section  id="Skills" className=" mb-[15%] mt-[10%] max-w-[85vw] w-full  grid gap-[5%] font-bold text-[var(--bh)] ">
+        <section className=" mb-[15%] mt-[10%] max-w-[85vw] w-full  grid gap-[5%] font-bold text-[var(--bh)] ">
             <h2 className="titleHard text-[var(--lv)]">Habilidades</h2>
             <article className='w-[50vw] grid gap-[5%]'>
                 <h3 className="subtitle flex items-center gap-[1%]"> <div className="  bg-[var(--bp)] w-[1.5vw] h-[1.5vw] rounded-full"></div> Back-End</h3>

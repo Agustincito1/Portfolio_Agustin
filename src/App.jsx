@@ -16,18 +16,30 @@ const App = () => {
     <>
    
       <Header/>
-
-      <Agustin />
-      <Separate></Separate>
-      <Aboutme/>
-      <Separate></Separate>
-      <Projects />
-      <Separate></Separate>
-      <Skill />
-      <Separate></Separate>
-      <Education />
-      <Separate></Separate>
-      <Footer/>
+      <section id="Agustin">
+        <Agustin/>
+        <Separate></Separate>
+      </section>
+      <section  id="Aboutme">
+        <Aboutme/>
+        <Separate></Separate>
+      </section>
+      <section id="Porfolio">
+        <Projects />
+        <Separate></Separate>
+      </section>
+      <section id="Skills">
+        <Skill />
+        <Separate></Separate>
+      </section>
+      <section id="Education">
+        <Education />
+        <Separate></Separate>
+      </section >
+      <div id="Contactme">
+        <Footer/>
+      </div>
+     
     </>
   );
 };
