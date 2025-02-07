@@ -16,7 +16,7 @@ const App = () => {
     <>
    
       <Header/>
-      <section id="Agustin">
+      <section >
         <Agustin/>
         <Separate></Separate>
       </section>

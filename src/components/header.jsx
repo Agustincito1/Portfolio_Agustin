@@ -2,7 +2,7 @@ import ScrollReveal from '../functions/ScrollReveal.jsx';
 function Header() {
   return (
     <>
-      <div className="spacer h-[10vw] ">
+      <div id="Agustin" className="spacer h-[10vw] ">
       </div>
       
       <header className="z-100 w-[100%]  h-fit bg-[var(--dv)] left-0 text-[var(--lv)] p-[9%] pb-[2%] pt-[3.5%] fixed ">
