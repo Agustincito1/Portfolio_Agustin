@@ -16,8 +16,8 @@ function Footer() {
               <img src="" alt="" /><p></p>
             </article> */}
           </section>
-          <section className="flex gap-[4%]">
-            <h2 className="Text">Sitio creado con</h2>
+          <section className="flex gap-[4%] items-center">
+            <h2 className="Text text-[var(--bh)]">Sitio creado con:</h2>
             <article className="flex items-center gap-[4%] Text">
               <img src="/imgs/tailwind.jpeg" alt="tailwind" className="w-[4vw] h-[4vw]" />
               <img src="/imgs/react.jpeg" alt="react" className="w-[4vw] h-[4vw]" />
