@@ -13,7 +13,7 @@ function Skill() {
                     <div className=' pl-[5%] grid grid-cols-[repeat(auto-fill,_minmax(10%,_1fr))] gap-[2%] w-[85vw] '>
                         <ImageSkill url="./imgs/php.png" title="Php imagen"/>
                         <ImageSkill url="./imgs/sql.png" title="sql imagen"/>
-                        <ImageSkill url="./imgs/nodejs.png" title="nodejs imagen"/>
+                        <ImageSkill url="./imgs/node.png" title="nodejs imagen"/>
                         {/* express */}
                     </div>
                 </article>
@@ -23,15 +23,16 @@ function Skill() {
                         <ImageSkill url="./imgs/html-5.png" title="html imagen"/>
                         <ImageSkill url="./imgs/css-3.png" title="css imagen"/>
                         <ImageSkill url="./imgs/js.png" title="js imagen"/>
-                        <ImageSkill url="./imgs/react.jpeg" title="react imagen"/>
-                        <ImageSkill url="./imgs/sas.jpeg" title="sas imagen"/>
-                        <ImageSkill url="./imgs/tailwind.jpeg" title="tailwind imagen"/>
+                        <ImageSkill url="./imgs/react.png" title="react imagen"/>
+                        <ImageSkill url="./imgs/sass.png" title="sas imagen"/>
+                        <ImageSkill url="./imgs/tailwind.png" title="tailwind imagen"/>
                     </div>
                 </article>
                 <article className='grid gap-[5%]'>
                     <h3 className="subtitle flex items-center gap-[1%]"><div className="  bg-[var(--ml)] w-[1.5vw] h-[1.5vw] rounded-full"></div>Softwares y Herramientas</h3>
                     <div className=' pl-[5%] grid grid-cols-[repeat(auto-fill,_minmax(10%,_1fr))] justify-items-left gap-[1%] w-[85vw]'>
                         <ImageSkill url="./imgs/github.png" title="github imagen"/>
+                        <ImageSkill url="./imgs/figma.png" title="figma imagen"/>
                     </div>
                 </article>
             </section>
