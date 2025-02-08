@@ -31,12 +31,13 @@ const ScrollReveal = ({ children }) => {
     return (
         <div
         ref={elementRef}
-        className={`element ${isVisible ? 'visible' : ''}`}
+        className={`element ${isVisible ? 'visible' : 'invisible'}`}
         >
         {children}
         </div>
     );
 };
+
 
 
 export default ScrollReveal;

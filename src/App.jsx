@@ -1,5 +1,6 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client' 
+
 import './style/index.css';
 import Footer from './components/footer.jsx'
 import Header from './components/header.jsx'
@@ -12,6 +13,9 @@ import ScrollReveal from './functions/ScrollReveal.jsx';
 import Separate from './components/separador.jsx';
 
 const App = () => {
+  
+  
+
   return (
     <>
    

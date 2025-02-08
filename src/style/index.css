@@ -91,13 +91,50 @@ a {
 }
 .element {
   opacity: 0;
-  transform: translateY(50px); /* Lo posicionamos hacia abajo */
-  transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+  transition: all 0.3s;
 }
 
 .element.visible {
   opacity: 1;
-  transform: translateY(0); /* Se mueve a su posición original */
+  animation-name: animationIntro;
+  animation-duration: 0.8s;
+  animation-iteration-count: initial;
+  animation-direction: normal;
+}
+
+.element.invisible {
+  opacity: 0;
+  animation-name: animationEnd;
+  animation-duration: 0.8s;
+  animation-iteration-count: initial;
+  animation-direction: normal;
+}
+
+@keyframes animationIntro {
+  0% {
+    opacity: 0;
+    transform: scale(1.1, 1.1);
+  }
+  50% {
+    transform: scale(1, 1);
+  }
+  100% {
+    transform: scale(1, 1);
+  }
+}
+
+@keyframes animationEnd {
+  0% {
+    opacity: 1;
+    transform: scale(1, 1);
+  }
+  50% {
+    transform: scale(1.1, 1.1);
+  }
+  100% {
+    opacity: 0;
+    transform: scale(1.1, 1.1);
+  }
 }
 
 .shadow {

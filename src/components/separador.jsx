@@ -1,9 +1,11 @@
+import ScrollReveal from '../functions/ScrollReveal.jsx';
+
 function Separate(){
     return(
         <>
-        
-            <hr className="bg-[var(--bh)] text-[var(--bh)] w-[102%] "/>
-        
+            <ScrollReveal>
+                <hr className="bg-[var(--bh)] text-[var(--bh)] w-[102%] "/>
+            </ScrollReveal>
         </>
     )
    
