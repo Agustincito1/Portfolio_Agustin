@@ -13,7 +13,7 @@ function Agustin() {
                     <article className="row-span-3 ">
                         <Profile location="/imgs/profile.png" title="Imagen profile" />
                     </article>
-                    <article className="col-span-2 pt-2 justify-self-end">
+                    <article className="col-span-2 pt-[1vw] justify-self-end">
                         <h1 className="text-[var(--bh)] title">Agustin Lazaro Ardeola de Olivera</h1>
                         <h2 className="text-[var(--lv)] subtitle">Full-Stack Development</h2>
                     </article>

@@ -22,7 +22,7 @@ function Cv({ text }) {
 
   return (
     <>
-      <button id="buttonCV" className=' bg-[var(--mi)] w-fit h-fit button font-bold text-[var(--bp)] p-[4%] rounded-[2px] border-[0.5px] border-color-[var(--bp)] cursor-pointer transition delay-20 duration-200 ease-in-out hover:border-[var(--am)] hover:text-[var(--am)]'>{text}</button>
+      <button id="buttonCV" className=' bg-[var(--mi)] w-fit h-fit button font-bold text-[var(--bp)] p-[4%] rounded-[0.5vw] border-[0.2vw] border-color-[var(--bp)] cursor-pointer transition delay-20 duration-200 ease-in-out hover:border-[var(--am)] hover:text-[var(--am)]'>{text}</button>
     </>
   )
 }

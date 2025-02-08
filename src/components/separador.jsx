@@ -4,7 +4,7 @@ function Separate(){
     return(
         <>
             <ScrollReveal>
-                <hr className="bg-[var(--bh)] text-[var(--bh)] w-[102%] "/>
+                <hr className="bg-[var(--bh)] text-[var(--bh)] w-[102%] h-[0.1vw]"/>
             </ScrollReveal>
         </>
     )

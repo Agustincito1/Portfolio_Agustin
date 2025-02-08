@@ -10,7 +10,7 @@ function Footer() {
                 <img src="imgs/gmail.png" alt="" className="w-[4vw] "/><p className="Text font-bold">agustinlazari594@gmail.com</p>
               </article>
               <article className="flex items-center gap-[1%] Text font-bold text-[var(--bh)]">
-                <img src="imgs/linkedin.png" alt="" className="w-[4vw]" /><a href="http://" target="_blank" rel="Linkedin">Agustin</a>
+                <img src="imgs/linkedin.png" alt="" className="w-[4vw]" /><a href="http://" target="_blank" rel="Linkedin" className="transition 0.4s hover:text-[var(--am)]">Agustin</a>
               </article>
               {/* whatspp */}
               {/* <article>
