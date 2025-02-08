@@ -94,6 +94,18 @@ a {
   opacity: 0;
   transition: all 0.3s;
 }
+.image {
+  opacity: 0;
+  transition: all 0.3s;
+}
+.image.visible {
+  opacity: 1;
+  animation: imageStart 0.8s ease-out forwards;
+}
+.image.invisible {
+  opacity: 0;
+  animation: imageEnd 0.8s ease-out forwards;
+}
 
 .element.visible {
   opacity: 1;
@@ -138,6 +150,29 @@ a {
   }
 }
 
+@keyframes imageStart {
+  0% {
+    opacity: 0;
+    transform: translateY(100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes imageEnd {
+  0% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateY(100%);
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(100%);
+  }
+}
 .shadow {
   box-shadow: 0 0 0.3vw var(--lv);
 }

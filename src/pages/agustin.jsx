@@ -2,6 +2,7 @@ import Profile from "../components/agustin/profile"
 import Cv from "../components/agustin/dowloadCV"
 import React from 'react';
 import ScrollReveal from "../functions/ScrollReveal";
+import ImageScroll from "../functions/ImageShow";
 
 
 function Agustin() {
@@ -20,11 +21,14 @@ function Agustin() {
                     <article className="w-full grid pl-[4%] ml-[5%]">
                         <Cv text="Descargar mi CV"></Cv>
                     </article>
-                    <article className="flex gap-[5%]  h-fit justify-end">
-                        <div className="bg-[var(--bh)] w-[4vw] h-[4vw] rounded-full"></div>
-                        <div className="bg-[var(--ls)] w-[4vw] h-[4vw] rounded-full"></div>
-                        <div className="bg-[var(--mi)] w-[4vw] h-[4vw] rounded-full"></div>
-                    </article>
+                    <ImageScroll>
+                        <article className="flex gap-[5%]  h-fit justify-end">
+                            <div className="bg-[var(--bh)] w-[4vw] h-[4vw] rounded-full"></div>
+                            <div className="bg-[var(--ls)] w-[4vw] h-[4vw] rounded-full"></div>
+                            <div className="bg-[var(--mi)] w-[4vw] h-[4vw] rounded-full"></div>
+                        </article>
+                    </ImageScroll>
+                  
 
                 </section>
             </ScrollReveal>
