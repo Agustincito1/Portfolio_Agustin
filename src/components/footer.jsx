@@ -1,4 +1,4 @@
-import ImageLinks from '../functions/imagesLonk.jsx';
+import ImageLinks from '../functions/imagesLink.jsx';
 import ScrollReveal from '../functions/ScrollReveal.jsx';
 function Footer() {
     return (
@@ -14,7 +14,7 @@ function Footer() {
                 <ImageLinks url="./imgs/linkedin.svg" link="" title="gmail imagen"></ImageLinks><a href="http://" target="_blank" rel="Linkedin" className="transition 0.4s hover:text-[var(--am)]">Agustin</a>
               </article>
             </section>
-            <section className="flex gap-[4%] items-center">
+            <section className="flex gap-[4%] items-center mt-[20%]">
               <h2 className="Text text-[var(--bh)]">Sitio creado con:</h2>
               <article className="flex items-center gap-[4%] Text">
                 <ImageLinks url="./imgs/tailwind-css.svg" link="https://tailwindcss.com/docs/installation/using-vite" title="tailwind imagen"></ImageLinks>

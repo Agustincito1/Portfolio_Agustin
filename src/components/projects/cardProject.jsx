@@ -18,7 +18,7 @@ function CardProject({ text, title, img, arrayLeng, linkGit }) {
                     } 
                 </article>
                 <article className="flex justify-center w-full ">
-                    <a href={linkGit} className="w-fit" target='_blank'><img className="w-[3vw] m-auto" src="./imgs/github.png" alt="" /></a>
+                    <a href={linkGit} className="w-fit hover:scale-110 transition rounded-full" target='_blank'><img className="w-[3vw] m-auto" src="./imgs/github.png" alt="" /></a>
                 </article>
             </section>
         </div>
