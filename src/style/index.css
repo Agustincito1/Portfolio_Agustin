@@ -153,7 +153,7 @@ a {
 @keyframes imageStart {
   0% {
     opacity: 0;
-    transform: translateY(100%);
+    transform: translateY(var(--percentage));
   }
   100% {
     transform: translateX(0);
@@ -166,13 +166,41 @@ a {
     transform: translateX(0);
   }
   50% {
-    transform: translateY(100%);
+    transform: translateY(var(--percentage));
   }
   100% {
     opacity: 0;
-    transform: translateY(100%);
+    transform: translateY(var(--percentage));
   }
 }
 .shadow {
   box-shadow: 0 0 0.3vw var(--lv);
+}
+
+.typing-cont {
+  overflow: hidden;
+}
+
+.typing {
+  white-space: nowrap;
+  overflow: hidden;
+  width: 0;
+  animation: typing 1s steps(60) 1.5s forwards, blink 0.75s step-end infinite;
+  animation-delay: var(--delay);
+}
+
+@keyframes typing {
+  from {
+    border-right: 0.2vw solid;
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
 }

@@ -1,6 +1,6 @@
 import React, { useEffect, useState, useRef } from "react";
 
-const ImageScroll = ({ children, percentege }) => {
+const Typing = ({ children, delay}) => {
     const [isVisible, setVisible] = useState(false);
     const elementRef = useRef(null);
 
@@ -31,10 +31,10 @@ const ImageScroll = ({ children, percentege }) => {
     return (
         <div
         ref={elementRef}
-        className={`image ${isVisible ? 'visible' : 'invisible'}`}
+        className={`typing-cont ${isVisible ? 'typing' : ''}`}
 
         style={{
-            "--percentage": percentege 
+            "--delay": delay 
         }}
         >
         {children}
@@ -44,4 +44,4 @@ const ImageScroll = ({ children, percentege }) => {
 
 
 
-export default ImageScroll;
+export default Typing;
