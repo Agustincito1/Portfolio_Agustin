@@ -11,28 +11,29 @@ function Skill() {
                 <article className='w-[50vw] grid gap-[5%]'>
                     <h3 className="subtitle flex items-center gap-[1%]"> <div className="  bg-[var(--bp)] w-[1.5vw] h-[1.5vw] rounded-full"></div> Back-End</h3>
                     <div className=' pl-[5%] grid grid-cols-[repeat(auto-fill,_minmax(10%,_1fr))] gap-[2%] w-[85vw] '>
-                        <ImageSkill url="./imgs/php.png" title="Php imagen"/>
-                        <ImageSkill url="./imgs/sql.png" title="sql imagen"/>
-                        <ImageSkill url="./imgs/node.png" title="nodejs imagen"/>
+                        <ImageSkill url="./imgs/ty.svg" link="https://www.typescriptlang.org/" title="typescript imagen"/>
+                        <ImageSkill url="./imgs/node.svg" link="https://nodejs.org/es" title="nodejs imagen"/>
+                        <ImageSkill url="./imgs/mysql.svg" link="https://dev.mysql.com/downloads/" title="sql imagen"/>
+                        <ImageSkill url="./imgs/mongo.svg" link="https://www.mongodb.com/" title="mongodb imagen"/>    
                         {/* express */}
                     </div>
                 </article>
                 <article className='grid gap-[5%]'>
                     <h3 className="subtitle flex items-center gap-[1%]"><div className="  bg-[var(--lv)] w-[1.5vw] h-[1.5vw] rounded-full"></div>Front-End</h3>
                     <div className=' pl-[5%] grid grid-cols-[repeat(auto-fill,_minmax(10%,_1fr))] gap-[1%] w-[85vw]'>
-                        <ImageSkill url="./imgs/html-5.png" title="html imagen"/>
-                        <ImageSkill url="./imgs/css-3.png" title="css imagen"/>
-                        <ImageSkill url="./imgs/js.png" title="js imagen"/>
-                        <ImageSkill url="./imgs/react.png" title="react imagen"/>
-                        <ImageSkill url="./imgs/sass.png" title="sas imagen"/>
-                        <ImageSkill url="./imgs/tailwind.png" title="tailwind imagen"/>
+                        <ImageSkill url="./imgs/html.svg" link="https://es.wikipedia.org/wiki/HTML" title="html imagen"/>
+                        <ImageSkill url="./imgs/css.svg" link="https://es.wikipedia.org/wiki/CSS" title="css imagen"/>
+                        <ImageSkill url="./imgs/js2.svg" link="https://es.wikipedia.org/wiki/JavaScript" title="js imagen"/>
+                        <ImageSkill url="./imgs/react.svg" link="https://react.dev/" title="react imagen"/>
+                        <ImageSkill url="./imgs/sass.svg" link="https://sass-lang.com/" title="sas imagen"/>
+                        <ImageSkill url="./imgs/tailwind-css.svg" link="https://tailwindcss.com/docs/installation/using-vite" title="tailwind imagen"/>
                     </div>
                 </article>
                 <article className='grid gap-[5%]'>
                     <h3 className="subtitle flex items-center gap-[1%]"><div className="  bg-[var(--ml)] w-[1.5vw] h-[1.5vw] rounded-full"></div>Softwares y Herramientas</h3>
                     <div className=' pl-[5%] grid grid-cols-[repeat(auto-fill,_minmax(10%,_1fr))] justify-items-left gap-[1%] w-[85vw]'>
-                        <ImageSkill url="./imgs/github.png" title="github imagen"/>
-                        <ImageSkill url="./imgs/figma.png" title="figma imagen"/>
+                        <ImageSkill url="./imgs/github.png" link="https://github.com/" title="github imagen"/>
+                        <ImageSkill url="./imgs/figma.png" link="https://www.figma.com/" title="figma imagen"/>
                     </div>
                 </article>
             </section>

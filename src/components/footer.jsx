@@ -20,9 +20,10 @@ function Footer() {
             <section className="flex gap-[4%] items-center">
               <h2 className="Text text-[var(--bh)]">Sitio creado con:</h2>
               <article className="flex items-center gap-[4%] Text">
-                <img src="/imgs/tailwind.png" alt="tailwind" className="w-[4vw] h-[4vw]" />
-                <img src="/imgs/react.png" alt="react" className="w-[4vw] h-[4vw]" />
-                <img src="/imgs/js.png" alt="js" className="w-[4vw] h-[4vw]" />
+                
+                <img src="/imgs/tailwind-css.svg" alt="tailwind" className="w-[4vw] h-[4vw]" />
+                <img src="/imgs/react.svg" alt="react" className="w-[4vw] h-[4vw]" />
+                <img src="/imgs/js2.svg" alt="js" className="w-[4vw] h-[4vw]" />
               </article>
             </section>
           </footer>
