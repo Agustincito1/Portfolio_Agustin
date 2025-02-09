@@ -32,8 +32,8 @@ function Skill() {
                 <article className='grid gap-[5%]'>
                     <h3 className="subtitle flex items-center gap-[1%]"><div className="  bg-[var(--ml)] w-[1.5vw] h-[1.5vw] rounded-full"></div>Softwares y Herramientas</h3>
                     <div className=' pl-[5%] grid grid-cols-[repeat(auto-fill,_minmax(10%,_1fr))] justify-items-left gap-[1%] w-[85vw]'>
-                        <ImageSkill url="./imgs/github.png" link="https://github.com/" title="github imagen"/>
-                        <ImageSkill url="./imgs/figma.png" link="https://www.figma.com/" title="figma imagen"/>
+                        <ImageSkill url="./imgs/github.svg" link="https://github.com/" title="github imagen"/>
+                        <ImageSkill url="./imgs/figma.svg" link="https://www.figma.com/" title="figma imagen"/>
                     </div>
                 </article>
             </section>
