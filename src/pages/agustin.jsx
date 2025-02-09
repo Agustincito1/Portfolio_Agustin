@@ -13,7 +13,7 @@ function Agustin() {
                 <section  className=" mb-[15%] mt-[15%] grid max-w-[85vw] items-center min-h-[5px] grid-cols-[0.6fr_1fr_1fr] grid-rows-2 grid-rows-[2fr_1fr]  ">
                     
                     <article className="row-span-3 ">
-                        <Profile location="/imgs/profile.png" title="Imagen profile" />
+                        <Profile location="./imgs/profile.png" title="Imagen profile" />
                     </article>
                     <article className="col-span-2 pt-[2vw] pl-[4%] items-center ">
                         <h1 className="text-[var(--bh)] title  h-[40%] w-fit"><Typing delay="0s">Agustin Lazaro Ardeola de Olivera</Typing></h1>
