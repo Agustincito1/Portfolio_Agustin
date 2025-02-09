@@ -54,28 +54,55 @@ a {
   opacity: 0;
 }
 .linkText {
-  font-size: clamp(0.15rem, 2vw, 7rem);
+  font-size: clamp(0.1rem, 2.8vw, 1rem);
 }
 .Text {
-  font-size: clamp(0.15rem, 2vw, 7rem);
+  font-size: clamp(0.15rem, 2vw, 10rem);
 }
 .Textp {
-  font-size: clamp(0.15rem, 1vw, 5rem);
+  font-size: clamp(0.5rem, 2vw, 5rem);
 }
 .Textproject {
-  font-size: clamp(0.15rem, 1.2vw, 5rem);
+  font-size: clamp(0.1rem, 0.8vh, 5rem);
 }
 .titleHard {
-  font-size: clamp(0.4rem, 6vw, 50rem);
+  font-size: clamp(0.4rem, 5.5vw, 50rem);
 }
 .title {
-  font-size: clamp(0.2rem, 4.2vw, 20rem);
+  font-size: clamp(0.1rem, 4.2vw, 3rem);
 }
 .subtitle {
-  font-size: clamp(0.1rem, 2.5vw, 10rem);
+  font-size: clamp(0.1rem, 2vw, 5rem);
 }
 .button {
-  font-size: clamp(0.1rem, 1vw, 4rem);
+  font-size: clamp(0.1rem, 2vh, 4rem);
+}
+
+@media (min-width: 640px) {
+  .linkText {
+    font-size: clamp(0.1rem, 2.5vw, 7rem);
+  }
+  .Text {
+    font-size: clamp(0.15rem, 2.2vw, 7rem);
+  }
+  .Textp {
+    font-size: clamp(0.15rem,5vw, 10rem);
+  }
+  .Textproject {
+    font-size: clamp(0.15rem, 1vw, 1rem);
+  }
+  .titleHard {
+    font-size: clamp(0.4rem, 10vh, 10rem);
+  }
+  .title {
+    font-size: clamp(0.2rem, 4vw, 10rem);
+  }
+  .subtitle {
+    font-size: clamp(0.1rem, 2.5vw, 6rem);
+  }
+  .button {
+    font-size: clamp(0.1rem, 2.1vw, 4rem);
+  }
 }
 
 .hijo.hovered {

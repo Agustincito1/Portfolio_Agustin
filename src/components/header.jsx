@@ -6,7 +6,7 @@ function Header() {
       <div id="Agustin" className="spacer h-[10vw] ">
       </div>
       
-      <header className="z-100 w-[100%]  h-fit bg-[var(--dv)] left-0 text-[var(--lv)] p-[9%] pb-[2%] pt-[3.5%] fixed ">
+      <header className="z-100 w-[100%] linkText h-fit bg-[var(--dv)] left-0 text-[var(--lv)] p-[9%] pb-[2%] pt-[3.5%] fixed ">
         <ScrollReveal>
           <nav className="w-full h-fit" id="nav">
               <ul className="w-full h-full linkText flex justify-between underline-offset-[30%]">

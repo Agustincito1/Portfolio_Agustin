@@ -10,7 +10,7 @@ function Aboutme() {
        <ScrollReveal>
           <section className='mb-[15%] mt-[10%] max-w-[85vw] w-full grid gap-[3%] font-bold' >
             <h2 className="titleHard text-[var(--lv)] " >Sobre mi</h2>
-            <p className="Text text-[var(--bh)] font-bold">
+            <p className="Text text-[var(--bh)] font-thin">
                 Soy un programador en constante evolucion, siempre en busca de desafios que me 
                 impulsen a alcanzar mis límites que me permita seguir aprendiendo y mejorando. 
                 Mi objetivo es crecer tanto profesional como técnicamente, y contribuir con sol
