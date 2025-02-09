@@ -7,6 +7,7 @@ export default defineConfig({
     react(), // Agrega el plugin de React
     tailwindcss(), // Agrega el plugin de Tailwind CSS
   ],
+  base: "/Portfolio_Agustin/",
   build: {
     rollupOptions: {
       input: "./index.html", // Especifica la entrada para el bundle (archivo index.html)
