@@ -57,7 +57,10 @@ a {
   font-size: clamp(0.15rem, 2vw, 7rem);
 }
 .Textp {
-  font-size: clamp(0.1rem, 1vw, 5rem);
+  font-size: clamp(0.15rem, 1vw, 5rem);
+}
+.Textproject {
+  font-size: clamp(0.15rem, 1.2vw, 5rem);
 }
 .titleHard {
   font-size: clamp(0.4rem, 6vw, 50rem);
@@ -174,7 +177,11 @@ a {
   }
 }
 .shadow {
-  box-shadow: 0 0 0.3vw var(--lv);
+  box-shadow: 0 0 0.5vw var(--lv);
+}
+
+.shadowProjects {
+  box-shadow: 0 0 1vw var(--lv);
 }
 
 .typing-cont {
