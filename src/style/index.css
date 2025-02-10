@@ -75,7 +75,7 @@ a {
   font-size: clamp(0.1rem, 2vw, 5rem);
 }
 .button {
-  font-size: clamp(0.1rem, 2vh, 4rem);
+  font-size: clamp(0.1rem, 2vw, 4rem);
 }
 
 @media (min-width: 640px) {
@@ -86,7 +86,7 @@ a {
     font-size: clamp(0.15rem, 2.2vw, 7rem);
   }
   .Textp {
-    font-size: clamp(0.15rem,5vw, 10rem);
+    font-size: clamp(0.15rem, 5vw, 10rem);
   }
   .Textproject {
     font-size: clamp(0.15rem, 1vw, 1rem);
@@ -103,6 +103,20 @@ a {
   .button {
     font-size: clamp(0.1rem, 2.1vw, 4rem);
   }
+}
+
+.selectedLinked {
+  transform: translateY(-0.5rem);
+  color: var(--am);
+  text-decoration: underline;
+  transform: scale(1.2);
+}
+
+.hoverLink:hover {
+  transform: translateY(-0.5rem);
+  color: var(--am);
+  text-decoration: underline;
+  transform: scale(1.2);
 }
 
 .hijo.hovered {

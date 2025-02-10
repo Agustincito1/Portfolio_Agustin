@@ -4,7 +4,7 @@ const ScrollReveal = ({ children }) => {
     const [isVisible, setVisible] = useState(false);
     const elementRef = useRef(null);
 
-     useEffect(() => {
+    useEffect(() => {
         const observer = new IntersectionObserver(
             ([entry]) => {
                 setVisible(entry.isIntersecting); // Cambiar el estado cuando el elemento entra en la vista

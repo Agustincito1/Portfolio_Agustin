@@ -1,7 +1,10 @@
 import ScrollReveal from '../functions/ScrollReveal.jsx';
+import Linki from './header/link.jsx';
 
 function Header() {
+
   return (
+    
     <>
       <div id="Agustin" className="spacer h-[10vw] ">
       </div>
@@ -10,12 +13,12 @@ function Header() {
         <ScrollReveal>
           <nav className="w-full h-fit" id="nav">
               <ul className="w-full h-full linkText flex justify-between underline-offset-[30%]">
-                <li className="w-fit h-fit "><a href="#Agustin" className="block transition delay-20 duration-200 ease-in-out hover:-translate-y-0.5 hover:text-[var(--am)] hover:underline   hover:scale-120">Agustin</a></li>
-                <li className="w-fit h-fit"><a href="#Aboutme" className="block transition delay-20 duration-200 ease-in-out hover:-translate-y-0.5 hover:text-[var(--am)] hover:underline  hover:scale-120">Sobre mi</a></li>
-                <li className="w-fit h-fit"><a href="#Porfolio" className="block transition delay-20 duration-200 ease-in-out hover:-translate-y-0.5 hover:text-[var(--am)] hover:underline   hover:scale-120">Proyectos</a></li>
-                <li className="w-fit h-fit"><a href="#Skills" className="block transition delay-20 duration-200 ease-in-out hover:-translate-y-0.5 hover:text-[var(--am)] hover:underline   hover:scale-120">Habilidades</a></li>
-                <li className="w-fit h-fit"><a href="#Education" className="block transition delay-20 duration-200 ease-in-out hover:-translate-y-0.5 hover:text-[var(--am)] hover:underline   hover:scale-120">Educacion</a></li>
-                <li className="w-fit h-fit"><a href="#Contactme" className="block transition delay-20 duration-200 ease-in-out hover:-translate-y-0.5 hover:text-[var(--am)] hover:underline   hover:scale-120">Contacto</a></li>
+                <li className="w-fit h-fit "><Linki id="Agustin" text="Agustin" name="Agustin" /></li>
+                <li className="w-fit h-fit"><Linki id="Aboutme" text="Sobre mi" name="Sobr emi" /></li>
+                <li className="w-fit h-fit"><Linki id="Porfolio" text="Proyectos"  name="Proyectos"/></li>
+                <li className="w-fit h-fit"><Linki id="Skills" text="Habilidades"  name="Habilidades"/></li>
+                <li className="w-fit h-fit"><Linki id="Education" text="Educacion"  name="Educacion"/></li>
+                <li className="w-fit h-fit"><Linki id="Contactme" text="Contactame"  name="Contactame"/></li>
               </ul>
           </nav>
         </ScrollReveal>
